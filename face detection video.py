@@ -4,7 +4,7 @@ haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
 #You can put the video you want type the adress instead of example.mp4
 
-capture = cv.VideoCapture('example.mp4')
+capture = cv.VideoCapture(r'...\example.mp4')
 
 while True:
     is_True, frame = capture.read()
